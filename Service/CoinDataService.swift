@@ -21,7 +21,7 @@ class CoinDataService {
 		if localCoinsData != nil {
 			getCoinsFromStorage()
 		} else {
-//			getCoinsFromInterner()
+			getCoinsFromInterner()
 			print("block")
 		}
     }
